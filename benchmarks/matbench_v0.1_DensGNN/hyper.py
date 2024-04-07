@@ -17,14 +17,7 @@ hyper_1 = {
                            },
 
                 "input_block_cfg" : {'node_size': 128,
-                   'edge_size': 128, 
-                   'atomic_mass': True, 
-                   'atomic_radius': True, 
-                   'electronegativity': True, 
-                   'ionization_energy': True, 
-                   'oxidation_states': True, 
-                   'melting_point':True,    
-                    'density':True,         
+                   'edge_size': 128,        
                    'edge_embedding_args': {'bins_distance': 32,
                                            'max_distance': 8.0,
                                            'distance_log_base': 1.0,
@@ -152,7 +145,6 @@ hyper_2 = {
             "config": {
                 "name": "DenseGNN",
                 "inputs": {
-
                         "offset": {"shape": (None, 3), "name": "offset", "dtype": "float32", "ragged": True},
                         # "voronoi_ridge_area": {"shape": (None, ), "name": "voronoi_ridge_area", "dtype": "float32", "ragged": True},
                         "atomic_number": {"shape": (None,), "name": "atomic_number", "dtype": "int32", "ragged": True},
@@ -160,18 +152,10 @@ hyper_2 = {
                         "AGNIFinger": {"shape": (None,24), "name": "AGNIFinger", "dtype": "float32", "ragged": True},
                         "edge_indices": {"shape": (None, 2), "name": "edge_indices", "dtype": "int64", "ragged": True},
                         "charge": {'shape': [1], 'name': "charge", 'dtype': 'float32', 'ragged': False},
-                           
                            },
 
                 "input_block_cfg" : {'node_size': 128,
-                   'edge_size': 128, 
-                   'atomic_mass': True, 
-                   'atomic_radius': True, 
-                   'electronegativity': True, 
-                   'ionization_energy': True, 
-                   'oxidation_states': True, 
-                   'melting_point':True,    
-                    'density':True,         
+                   'edge_size': 128,        
                    'edge_embedding_args': {'bins_distance': 32,
                                            'max_distance': 8.0,
                                            'distance_log_base': 1.0,
@@ -297,7 +281,6 @@ hyper_3 = {
             "config": {
                 "name": "DenseGNN",
                 "inputs": {
-
                         "offset": {"shape": (None, 3), "name": "offset", "dtype": "float32", "ragged": True},
                         "voronoi_ridge_area": {"shape": (None, ), "name": "voronoi_ridge_area", "dtype": "float32", "ragged": True},
                         "atomic_number": {"shape": (None,), "name": "atomic_number", "dtype": "int32", "ragged": True},
@@ -309,14 +292,7 @@ hyper_3 = {
                            },
 
                 "input_block_cfg" : {'node_size': 128,
-                   'edge_size': 128, 
-                   'atomic_mass': True, 
-                   'atomic_radius': True, 
-                   'electronegativity': True, 
-                   'ionization_energy': True, 
-                   'oxidation_states': True, 
-                   'melting_point':True,    
-                    'density':True,         
+                   'edge_size': 128,  
                    'edge_embedding_args': {'bins_distance': 32,
                                            'max_distance': 8.0,
                                            'distance_log_base': 1.0,
@@ -420,7 +396,6 @@ hyper_4 = {
             "config": {
                 "name": "DenseGNN",
                 "inputs": {
-
                         "offset": {"shape": (None, 3), "name": "offset", "dtype": "float32", "ragged": True},
                         "voronoi_ridge_area": {"shape": (None, ), "name": "voronoi_ridge_area", "dtype": "float32", "ragged": True},
                         "atomic_number": {"shape": (None,), "name": "atomic_number", "dtype": "int32", "ragged": True},
@@ -431,15 +406,6 @@ hyper_4 = {
                            },
                 "input_block_cfg" : {'node_size': 128,
                    'edge_size': 128, 
-                   'atomic_mass': True, 
-                   'atomic_radius': True, 
-                   'electronegativity': True, 
-                   'ionization_energy': True, 
-                   'oxidation_states': True, 
-                   'melting_point':True,    
-                    'density':True,         
-      
-
                    'edge_embedding_args': {'bins_distance': 32,
                                            'max_distance': 8.0,
                                            'distance_log_base': 1.0,
@@ -577,14 +543,7 @@ hyper_5 = {
                            
                            },
                 "input_block_cfg" : {'node_size': 128,
-                   'edge_size': 128, 
-                   'atomic_mass': True, 
-                   'atomic_radius': True, 
-                   'electronegativity': True, 
-                   'ionization_energy': True, 
-                   'oxidation_states': True, 
-                   'melting_point':True,    
-                    'density':True,         
+                   'edge_size': 128,      
                    'edge_embedding_args': {'bins_distance': 32,
                                            'max_distance': 8.0,
                                            'distance_log_base': 1.0,
@@ -708,7 +667,6 @@ hyper_6 = {
             "config": {
                 "name": "DenseGNN",
                 "inputs": {
-
                         "offset": {"shape": (None, 3), "name": "offset", "dtype": "float32", "ragged": True},
                         "voronoi_ridge_area": {"shape": (None, ), "name": "voronoi_ridge_area", "dtype": "float32", "ragged": True},
                         "atomic_number": {"shape": (None,), "name": "atomic_number", "dtype": "int32", "ragged": True},
@@ -716,18 +674,10 @@ hyper_6 = {
                         # "AGNIFinger": {"shape": (None,24), "name": "AGNIFinger", "dtype": "float32", "ragged": True},
                         "edge_indices": {"shape": (None, 2), "name": "edge_indices", "dtype": "int64", "ragged": True},
                         "charge": {'shape': [1], 'name': "charge", 'dtype': 'float32', 'ragged': False},
-                           
                            },
 
                 "input_block_cfg" : {'node_size': 128,
-                   'edge_size': 128, 
-                   'atomic_mass': True, 
-                   'atomic_radius': True, 
-                   'electronegativity': True, 
-                   'ionization_energy': True, 
-                   'oxidation_states': True, 
-                   'melting_point':True,    
-                    'density':True,         
+                   'edge_size': 128,       
                    'edge_embedding_args': {'bins_distance': 32,
                                            'max_distance': 8.0,
                                            'distance_log_base': 1.0,
@@ -866,14 +816,7 @@ hyper_7 = {
                            },
 
                 "input_block_cfg" : {'node_size': 128,
-                   'edge_size': 128, 
-                   'atomic_mass': True, 
-                   'atomic_radius': True, 
-                   'electronegativity': True, 
-                   'ionization_energy': True, 
-                   'oxidation_states': True, 
-                   'melting_point':True,    
-                    'density':True,         
+                   'edge_size': 128,       
                    'edge_embedding_args': {'bins_distance': 32,
                                            'max_distance': 8.0,
                                            'distance_log_base': 1.0,
