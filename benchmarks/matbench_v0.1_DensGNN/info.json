@@ -6,7 +6,5 @@
     "@article{UnderReview, author = {Hongwei Du, Hong Wang}, title = {DenseGNN: universal and scalable deeper graph neural networks for high-performance property prediction in crystals and molecules}, journal = {npj Computational Materials}, volume = {}, number = {}, pages = {}, year = {2024}, doi = {Under Review}, URL = {}, eprint = {}}"
   ],
   "notes": "",
-  "requirements": {
-   "See GitHub page https://github.com/dhw059/DenseGNN."
-  }
+  "requirements": "See GitHub page https://github.com/dhw059/DenseGNN."
 }
